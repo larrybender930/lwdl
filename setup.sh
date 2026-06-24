@@ -54,7 +54,7 @@ echo "=== Installing unzip ==="
 sudo apt install -y unzip
 
 echo "=== Downloading app ==="
-wget -O downloader.zip "https://firebasestorage.googleapis.com/v0/b/gpk-dymes.firebasestorage.app/o/downloader.zip?alt=media&token=a8711c0d-de9c-4a5c-8a85-5a5b8689a0fa"
+wget -O downloader.zip "https://raw.githubusercontent.com/larrybender930/lwdl/refs/heads/main/downloader.zip"
 
 echo "=== Extracting app ==="
 rm -rf downloader
